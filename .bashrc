@@ -7,7 +7,7 @@ umask 022 	# Set default file protection to rw/r/r
 HNAME=`hostname`	# Set $HNAME to be the current machines name
 
 if [ ! "$EXEC_LOGIN" ]; then
-	source ~t/.bash_login
+	source ~/.bash_login
 fi
 
 # Set the path, dividing into less confusing sections :-)
@@ -47,7 +47,7 @@ function setenv()
         fi
 }
 
-source ~t/.alii
+source ~/.alii
 
 if [ `whoami` = 'root' ]; then
         PS1='(\h)`dirs` root\$ '
