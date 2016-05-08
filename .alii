@@ -1,0 +1,37 @@
+alias ls="ls -C"
+alias lf="ls -FC"
+
+alias c=clear
+
+alias ll="ls -la"
+alias h="history"
+
+alias cls=clear
+#alias ftp="ftp -i"
+alias who=w
+
+alias seh="stty erase '^?'"
+
+alias tarx="tar xvof !*"
+alias tara="tar cf !*"
+
+alias resrc="source $HOME/.bashrc"
+alias reals="source $HOME/.alii"
+
+alias wuarc="ftp 128.252.135.4"
+alias dragon="tinytalk 134.114.64.6 4201"
+alias quake="finger quake@geophys.washington.edu | more" 
+
+alias root="sudo bash"
+
+alias lastmail="frm | tail -2"
+#alias elm=~brown/.bin/elm
+alias alife='rlogin alife.org -l ctb'
+alias netscape='netscape http://www.cns.caltech.edu/~ctb/personal/h.html'
+alias elm=mutt
+alias es="export IDL_STARTUP=es.pro; idl; unset IDL_STARTUP"
+alias Mail=mutt
+
+alias urchin='sqlplus urchin/urchme'
+alias f2d='fig2dev -L ps -c -P -z letter'
+alias ec='/Applications/Emacs.app//Contents/MacOS/bin-x86_64-10_9/emacsclient -n'

@@ -1,0 +1,21 @@
+[user]
+	name = C. Titus Brown
+	email = titus@idyll.org
+[push]
+	default = simple
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[alias]
+	lga = log --all --decorate --graph --oneline
+	a = add
+	cam = commit --al --message
+	i = init
+	p = push --set-upstream
+[core]
+	editor = nano -w
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true

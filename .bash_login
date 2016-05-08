@@ -1,0 +1,3 @@
+EXEC_LOGIN=1
+
+source ~t/.bashrc
