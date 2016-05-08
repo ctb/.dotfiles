@@ -12,6 +12,11 @@
           (lambda ()
             (setq python-indent 4)))
 
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
 (menu-bar-mode 0)
 
 (setq-default c-basic-offset 4)
